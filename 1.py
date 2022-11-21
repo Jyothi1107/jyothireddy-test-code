@@ -1,5 +1,5 @@
 class Solution:
-   def solve(self,n):
+   def solve(self, n):
       sign = '-' if n<0 else ''
       n = abs(n)
       if n < 3:
